@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Mukta:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 :root {
     --main-color: black;
     --accent-color: white;
-    font-family: 'Mukta', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -11,10 +11,11 @@ body {
     margin:auto;
 }
 
-.header-nav .logo {
-    font-family: 'Krona One', sans-serif;
-    font-size: 3.5rem;
-    text-align: center;
+.header-nav .logo img {
+    width: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+
 }
 
 .header-nav .menu-items {
